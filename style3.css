@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    padding: 10px;
+}
+.carre{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.carre1{
+    background-color: #1abc9c ;
+    margin-right: 10px;
+    position: relative;
+   
+    
+    /* color 1 #1abc9c */
+    /* color 2 #3498db */
+}
+.carre2{
+
+    background-color: #3498db;
+  
+}
+.circle{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ecf5f3a4;
+    padding: 10px;
+  
+}
